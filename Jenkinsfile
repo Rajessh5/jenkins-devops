@@ -28,5 +28,8 @@ pipeline {
 		failure {
 			echo "I  will run build fails"
 		}
+		changed {
+			echo "I will execute when something chnage"
+		}
 	}
 }
